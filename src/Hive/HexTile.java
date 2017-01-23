@@ -161,8 +161,7 @@ public class HexTile extends Polygon{
                 if (k==5) return true;
             }
         }
-        if (i==0) return true;
-        return (i==5);
+        return (i==0||i==5);
     }
 
     // adds a handler for onClick actions
@@ -195,33 +194,7 @@ public class HexTile extends Polygon{
                             moves = true;
                             tiles.pop();
                         }
-/*
-                        if(parent.getTurn().getCurrentPlayer().getPlayerID()==1)
-                        {
-                            tilePreview = parent.getTurn().getController().getPanelplayer1().setTilePreview(parent.getTurn().getCurrentPlayer(), HexTile.this.getTiles().peek().getType(), new Point2D(t.getX(), t.getY()), scale);
-                            tilePreview.getPoly().setFill(tilePreview.getTiles().peek().getColor());
-                            parent.getGroup().getChildren().add(tilePreview.getPoly());
-                            PossibleMoves = new ArrayList<HexTile>();
-                            tiles.peek().getPossibleMoves(HexTile.this, PossibleMoves);
-                            for (HexTile x:PossibleMoves){
-                                x.getPoly().setFill(Color.MAGENTA);
-                            }
-                            moves = true;
-                            tiles.pop();
-                        }
-                        else if (parent.getTurn().getCurrentPlayer().getPlayerID()==2){
-                            tilePreview = parent.getTurn().getController().getPanelplayer2().setTilePreview(parent.getTurn().getCurrentPlayer(), HexTile.this.getTiles().peek().getType(), new Point2D(t.getX(), t.getY()), scale);
-                            tilePreview.getPoly().setFill(tilePreview.getTiles().peek().getColor());
-                            parent.getGroup().getChildren().add(tilePreview.getPoly());
-                            PossibleMoves = new ArrayList<HexTile>();
-                            tiles.peek().getPossibleMoves(HexTile.this, PossibleMoves);
-                            for (HexTile x:PossibleMoves){
-                                x.getPoly().setFill(Color.MAGENTA);
-                            }
-                            moves = true;
-                            tiles.pop();
-                        }
-   */                 }
+                    }
 
                 }
                 else{
@@ -255,7 +228,6 @@ public class HexTile extends Polygon{
             return new BoardCoords(boardCoords.x, boardCoords.y-1);
         }
         else{
-            if (this.boardCoords.x==0) return null;
             return new BoardCoords(boardCoords.x-1, boardCoords.y-1);
         }
 
@@ -485,7 +457,7 @@ public class HexTile extends Polygon{
                 if (!x.getTiles().isEmpty())
                     x.getPoly().setFill(x.getTiles().peek().getColor());
             }
-            PossibleMoves.removeAll(PossibleMoves);
+            PossibleMoves.clear();
             parent.update();
         }
     }

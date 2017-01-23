@@ -15,6 +15,8 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import java.util.ArrayList;
+
+import static Hive.GameController.GameController.playing;
 import static Hive.Tiles.Tile.type.BEE;
 
 /**
@@ -38,8 +40,8 @@ public class SidePanel {
         return queenWasPlaced;
     }
 
-    public void setQueenWasPlaced(boolean queenWasPlaced) {
-        this.queenWasPlaced = queenWasPlaced;
+    public void setQueenWasPlaced() {
+        this.queenWasPlaced = true;
     }
 
     public Player getOwner() {
@@ -91,7 +93,9 @@ public class SidePanel {
 
             @Override
             public void handle(MouseEvent t) {
-
+                if (!playing){
+                    return;
+                }
                 if (!preview)
                 {
                     if (!hex.getTiles().isEmpty()) {
@@ -101,7 +105,7 @@ public class SidePanel {
                             tilePreview.getPoly().setFill(tilePreview.getTiles().peek().getColor());
                             scene.getChildren().add(tilePreview.getPoly());
                             if (tilePreview.getTiles().peek().getType()==BEE)
-                                SidePanel.this.setQueenWasPlaced(true);
+                                SidePanel.this.setQueenWasPlaced();
                             if (hex.getTiles().isEmpty())
                                 hex.getPoly().setVisible(false);
                         }
@@ -111,7 +115,7 @@ public class SidePanel {
                             tilePreview.getPoly().setFill(tilePreview.getTiles().peek().getColor());
                             scene.getChildren().add(tilePreview.getPoly());
                             if (tilePreview.getTiles().peek().getType()==BEE)
-                                SidePanel.this.setQueenWasPlaced(true);
+                                SidePanel.this.setQueenWasPlaced();
                             if (hex.getTiles().isEmpty())
                                 hex.getPoly().setVisible(false);
 

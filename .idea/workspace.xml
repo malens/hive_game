@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f1bdc5e-f6f1-49de-8efe-dfefb72a58c8" name="Default" comment="" />
+    <list default="true" id="2f1bdc5e-f6f1-49de-8efe-dfefb72a58c8" name="Default" comment=".">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel$1.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile$1.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hive/GUI/SidePanel.java" afterPath="$PROJECT_DIR$/src/Hive/GUI/SidePanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hive/HexTile.java" afterPath="$PROJECT_DIR$/src/Hive/HexTile.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,16 +49,16 @@
       <file leaf-file-name="HexTile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hive/HexTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="381" column="52" lean-forward="false" selection-start-line="381" selection-start-column="52" selection-end-line="381" selection-end-column="52" />
+            <state relative-caret-position="318">
+              <caret line="459" column="34" lean-forward="false" selection-start-line="459" selection-start-column="34" selection-end-line="459" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+                <element signature="e#2366#2367#0" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
                 <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
                 <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
                 <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
                 <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-                <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
                 <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
                 <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
                 <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -65,13 +73,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Tile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Hive/Tiles/Tile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SidePanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Hive/GUI/SidePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+            <state relative-caret-position="195">
+              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +102,7 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hive/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="561">
               <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
               <folding>
                 <element signature="e#792#793#0" expanded="true" />
@@ -95,7 +117,7 @@
       <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hive/GameController/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="1496">
               <caret line="108" column="31" lean-forward="false" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,7 +129,7 @@
       <file leaf-file-name="TurnManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hive/GameController/TurnManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="731">
               <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,6 +173,9 @@
       <replace>break</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -166,8 +191,6 @@
         <option value="$PROJECT_DIR$/src/Hive/Main.java" />
         <option value="$PROJECT_DIR$/src/Hive/Tiles/Bee.java" />
         <option value="$PROJECT_DIR$/src/Hive/Tiles/Beetle.java" />
-        <option value="$PROJECT_DIR$/src/Hive/HexTile.java" />
-        <option value="$PROJECT_DIR$/src/Hive/Tiles/Tile.java" />
         <option value="$PROJECT_DIR$/src/Hive/Tiles/Mosquito.java" />
         <option value="$PROJECT_DIR$/src/Hive/Tiles/Ant.java" />
         <option value="$PROJECT_DIR$/src/Hive/Tiles/Spider.java" />
@@ -176,6 +199,8 @@
         <option value="$PROJECT_DIR$/src/Hive/HexBoard.java" />
         <option value="$PROJECT_DIR$/src/Hive/GameController/GameController.java" />
         <option value="$PROJECT_DIR$/src/Hive/GameController/TurnManager.java" />
+        <option value="$PROJECT_DIR$/src/Hive/Tiles/Tile.java" />
+        <option value="$PROJECT_DIR$/src/Hive/HexTile.java" />
         <option value="$PROJECT_DIR$/src/Hive/GUI/SidePanel.java" />
       </list>
     </option>
@@ -207,9 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -366,6 +388,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,6 +401,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -843,28 +869,29 @@
       <workItem from="1484751248387" duration="3521000" />
       <workItem from="1484774686006" duration="690000" />
       <workItem from="1485091785214" duration="37093000" />
-      <workItem from="1485178290929" duration="4276000" />
+      <workItem from="1485178290929" duration="4945000" />
+      <workItem from="1485183760498" duration="1156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93123000" />
+    <option name="totallyTimeSpent" value="94948000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -890,6 +917,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -920,12 +951,12 @@
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -945,6 +976,8 @@
           <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -954,6 +987,9 @@
         <state relative-caret-position="476">
           <caret line="34" column="119" lean-forward="false" selection-start-line="34" selection-start-column="119" selection-end-line="34" selection-end-column="119" />
           <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
@@ -975,8 +1011,6 @@
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1011,12 +1045,12 @@
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -1036,6 +1070,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1045,6 +1081,9 @@
         <state relative-caret-position="476">
           <caret line="34" column="119" lean-forward="false" selection-start-line="34" selection-start-column="119" selection-end-line="34" selection-end-column="119" />
           <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
@@ -1066,8 +1105,6 @@
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1090,12 +1127,12 @@
           <caret line="231" column="5" lean-forward="false" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -1115,6 +1152,8 @@
           <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1124,6 +1163,9 @@
         <state relative-caret-position="476">
           <caret line="34" column="119" lean-forward="false" selection-start-line="34" selection-start-column="119" selection-end-line="34" selection-end-column="119" />
           <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
@@ -1145,8 +1187,6 @@
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1169,12 +1209,12 @@
           <caret line="66" column="35" lean-forward="false" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -1193,6 +1233,9 @@
         <state relative-caret-position="204">
           <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
@@ -1214,8 +1257,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1238,12 +1279,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -1273,8 +1314,6 @@
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1297,12 +1336,12 @@
           <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -1344,12 +1383,12 @@
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -1424,22 +1463,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hive/Tiles/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hive/Tiles/Mosquito.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1477,6 +1508,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hive/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hive/GameController/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="108" column="31" lean-forward="false" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hive/GameController/TurnManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hive/HexBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1489,18 +1553,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hive/HexTile.java">
+    <entry file="file://$PROJECT_DIR$/src/Hive/Tiles/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="381" column="52" lean-forward="false" selection-start-line="381" selection-start-column="52" selection-end-line="381" selection-end-column="52" />
+        <state relative-caret-position="120">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#HexTile#1;class#HexTile#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hive/HexTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="459" column="34" lean-forward="false" selection-start-line="459" selection-start-column="34" selection-end-line="459" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
             <element signature="method#HexTile#2;class#HexTile#0" expanded="false" />
             <element signature="class#BoardCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getRightCoords#0;class#HexTile#0" expanded="false" />
-            <element signature="method#getTopLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getTopRightCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotLeftCoords#0;class#HexTile#0" expanded="false" />
             <element signature="method#getBotRightCoords#0;class#HexTile#0" expanded="false" />
@@ -1514,45 +1588,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hive/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
-          <folding>
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hive/GameController/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="108" column="31" lean-forward="false" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hive/GameController/TurnManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hive/GUI/SidePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
