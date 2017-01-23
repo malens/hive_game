@@ -6,14 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f1bdc5e-f6f1-49de-8efe-dfefb72a58c8" name="Default" comment=".">
+    <list default="true" id="2f1bdc5e-f6f1-49de-8efe-dfefb72a58c8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel$1.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/GUI/SidePanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile$1.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile.class" afterPath="$PROJECT_DIR$/out/production/Hive/Hive/HexTile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hive/GUI/SidePanel.java" afterPath="$PROJECT_DIR$/src/Hive/GUI/SidePanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hive/HexTile.java" afterPath="$PROJECT_DIR$/src/Hive/HexTile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -870,12 +868,20 @@
       <workItem from="1484774686006" duration="690000" />
       <workItem from="1485091785214" duration="37093000" />
       <workItem from="1485178290929" duration="4945000" />
-      <workItem from="1485183760498" duration="1156000" />
+      <workItem from="1485183760498" duration="1164000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1485184913624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485184913624</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94948000" />
+    <option name="totallyTimeSpent" value="94956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
