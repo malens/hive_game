@@ -23,6 +23,25 @@ import static Hive.Tiles.Tile.type.BEETLE;
 
 public class HexTile extends Polygon{
 
+    // canvas coords for drawing
+    private Point2D coords;
+    // what is actually drawn
+    private Polygon hexagon;
+    private Polygon playerMarker;
+    // used for recognizing whether a tile can be put on HexTile
+    private Boolean enabled = false;
+    // scale of the HexTile
+    private Double scale;
+    // the HexBoard on which we put the HexTile
+    private HexBoard parent;
+    // position in the HexBoard's array
+    private BoardCoords boardCoords;
+    // what Tiles are currently in this place (some tiles can go on top of others, hence we use stack)
+    private Stack<Tile> tiles;
+
+    private Text text;
+
+
 
     /*
     *creates a HexTile in the place pointed to by where and with a scale of scale.
@@ -91,23 +110,6 @@ public class HexTile extends Polygon{
         return false;
     }
 
-    // canvas coords for drawing
-    private Point2D coords;
-    // what is actually drawn
-    private Polygon hexagon;
-    private Polygon playerMarker;
-    // used for recognizing whether a tile can be put on HexTile
-    private Boolean enabled = false;
-    // scale of the HexTile
-    private Double scale;
-    // the HexBoard on which we put the HexTile
-    private HexBoard parent;
-    // position in the HexBoard's array
-    private BoardCoords boardCoords;
-    // what Tiles are currently in this place (some tiles can go on top of others, hence we use stack)
-    private Stack<Tile> tiles;
-
-    private Text text;
 
     public Polygon getPlayerMarker() {
         return playerMarker;

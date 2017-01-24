@@ -18,12 +18,13 @@ public class Grasshopper extends Tile {
     private Player player;
     private Color color = Color.GREEN;
     private Tile.type type = GRASSHOPPER;
+    private final int available = 3;
 
     public int getAvailable() {
         return available;
     }
 
-    private final int available =3;
+
 
     public Tile.type getType() {
         return type;

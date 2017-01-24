@@ -12,6 +12,13 @@ import static Hive.Tiles.Tile.type.ANT;
  */
 public class Ant extends Tile {
 
+    private final int available = 3;
+    private Player player;
+    private Color color = Color.BLUE;
+    private Tile.type type = ANT;
+
+
+
     public Ant(Player player) {
         this.player = player;
     }
@@ -20,10 +27,6 @@ public class Ant extends Tile {
         return available;
     }
 
-    private final int available = 3;
-    private Player player;
-    private Color color = Color.BLUE;
-    private Tile.type type = ANT;
 
     public Tile.type getType() {
         return type;

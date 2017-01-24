@@ -16,13 +16,10 @@ public class Tile {
     public int getAvailable() {
         return available;
     }
-
     private int available;
-
     //list of all available tile types
     public enum type {ANT, SPIDER, BEE, BEETLE, GRASSHOPPER, MOSQUITO;}
     private Color color;
-
     private type type;
 
     public Tile.type getType() {
@@ -53,14 +50,8 @@ public class Tile {
         return null;
     }
 
-    // returns this tiles type
-    //public Tile.type getType() {
-    //    return tileType;
-    //}
     public void getPossibleMoves(HexTile hex,ArrayList<HexTile> possibleMoves)
-    {
-        return;
-    }
+    {}
 
     //returns this tiles owner
     public Player getPlayer() {

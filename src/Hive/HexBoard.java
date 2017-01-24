@@ -15,22 +15,13 @@ import static Hive.GameController.GameController.playing;
  */
 public class HexBoard {
 
-    //returns the width (amount of HexTiles) of this HexBoard
-    public int getWidth() {
-        return width;
-    }
-    //returns the height (amount of HexTiles) of this HexBoard
-    public int getHeight() {
-        return height;
-    }
+
 
     private Group group;
 
     private TurnManager turn;
 
-    public Group getGroup() {
-        return group;
-    }
+
 
     //represents our board
     private HexTile[][] board;
@@ -44,6 +35,18 @@ public class HexBoard {
     public final static Color enabledColor = Color.PINK;
     public final static Color disabledColor = Color.BLACK;
 
+    //returns the width (amount of HexTiles) of this HexBoard
+    public int getWidth() {
+        return width;
+    }
+    //returns the height (amount of HexTiles) of this HexBoard
+    public int getHeight() {
+        return height;
+    }
+
+    public Group getGroup() {
+        return group;
+    }
 
     public TurnManager getTurn() {
         return turn;

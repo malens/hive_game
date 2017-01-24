@@ -20,12 +20,14 @@ public class Bee extends Tile {
     private Player player;
     private Color color = Color.GOLD;
     private Tile.type type = BEE;
+    private final int available = 1;
+
 
     public int getAvailable() {
         return available;
     }
 
-    private final int available = 1;
+
 
     public Tile.type getType() {
         return type;

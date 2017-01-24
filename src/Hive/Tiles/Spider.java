@@ -17,12 +17,13 @@ public class Spider extends Tile {
     private Player player;
     private Color color = Color.BROWN;
     private Tile.type type = SPIDER;
+    private final int available = 2;
 
     public int getAvailable() {
         return available;
     }
 
-    private final int available =2;
+
 
     public Tile.type getType() {
         return type;

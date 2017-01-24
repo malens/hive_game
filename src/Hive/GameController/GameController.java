@@ -91,7 +91,7 @@ public class GameController extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        setUp(1000, 700, 26, 20);
+
         mainStage = primaryStage;
         mainStage.setResizable(false);
         setMenu();
@@ -99,7 +99,7 @@ public class GameController extends Application {
     }
 
     private void setMenu (){
-        
+
         GridPane panel = new GridPane ();
         Button but1 = new Button("Set player 1 name");
         Button but2 = new Button("Set player 2 name");
@@ -138,6 +138,7 @@ public class GameController extends Application {
 
 
     private void setGame (){
+        setUp(1000, 700, 26, 20);
         Group gameBoardGroup = new Group();
         Scene gameScene = new Scene (gameBoardGroup, scrw, scrh-scale);
         this.turns = new TurnManager(this);

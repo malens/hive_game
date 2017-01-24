@@ -21,12 +21,13 @@ public class Beetle extends Tile {
     private Player player;
     private Color color = Color.VIOLET;
     private Tile.type type = BEETLE;
+    private final int available =2;
 
     public int getAvailable() {
         return available;
     }
 
-    private final int available =2;
+
 
     public Tile.type getType() {
         return type;
